@@ -1,0 +1,9 @@
+[target.arm-unknown-linux-gnueabihf]
+image = "ghcr.io/cross-rs/arm-unknown-linux-gnueabihf:edge"
+# dockerfile = "./docker/Dockerfile.arm-unknown-linux-gnueabihf"
+
+[target.armv7-unknown-linux-gnueabihf]
+dockerfile = "./docker/Dockerfile.armv7-unknown-linux-gnueabihf"
+
+[target.armv7-unknown-linux-musleabihf]
+dockerfile = "./docker/Dockerfile.armv7-unknown-linux-musleabihf"
